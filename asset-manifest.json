@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/text_generation_react_app/static/css/main.5f361e03.chunk.css",
+    "main.js": "/text_generation_react_app/static/js/main.1c7bf0b4.chunk.js",
+    "main.js.map": "/text_generation_react_app/static/js/main.1c7bf0b4.chunk.js.map",
+    "runtime-main.js": "/text_generation_react_app/static/js/runtime-main.2a7d3efd.js",
+    "runtime-main.js.map": "/text_generation_react_app/static/js/runtime-main.2a7d3efd.js.map",
+    "static/js/2.cd138970.chunk.js": "/text_generation_react_app/static/js/2.cd138970.chunk.js",
+    "static/js/2.cd138970.chunk.js.map": "/text_generation_react_app/static/js/2.cd138970.chunk.js.map",
+    "index.html": "/text_generation_react_app/index.html",
+    "precache-manifest.1dd5d73ac3c54c031675d8fcbb6d74e5.js": "/text_generation_react_app/precache-manifest.1dd5d73ac3c54c031675d8fcbb6d74e5.js",
+    "service-worker.js": "/text_generation_react_app/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/text_generation_react_app/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.cd138970.chunk.js.LICENSE.txt": "/text_generation_react_app/static/js/2.cd138970.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a7d3efd.js",
+    "static/js/2.cd138970.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.1c7bf0b4.chunk.js"
+  ]
+}
