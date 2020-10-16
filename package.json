@@ -2,7 +2,7 @@
   "name": "speech_generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/BerangerN/text_generation_react_app",
+  "homepage": "https://berangern.github.io/text_generation_react_app/",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -16,9 +16,10 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "clean" : "gh-pages-clean",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
