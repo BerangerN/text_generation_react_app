@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/BerangerN/text_generation_react_app/static/css/main.5f361e03.chunk.css",
+    "main.js": "/BerangerN/text_generation_react_app/static/js/main.0cec8a2c.chunk.js",
+    "main.js.map": "/BerangerN/text_generation_react_app/static/js/main.0cec8a2c.chunk.js.map",
+    "runtime-main.js": "/BerangerN/text_generation_react_app/static/js/runtime-main.4075e2fe.js",
+    "runtime-main.js.map": "/BerangerN/text_generation_react_app/static/js/runtime-main.4075e2fe.js.map",
+    "static/js/2.cd138970.chunk.js": "/BerangerN/text_generation_react_app/static/js/2.cd138970.chunk.js",
+    "static/js/2.cd138970.chunk.js.map": "/BerangerN/text_generation_react_app/static/js/2.cd138970.chunk.js.map",
+    "index.html": "/BerangerN/text_generation_react_app/index.html",
+    "precache-manifest.c96b3d793206af4d30a787b7e2e44545.js": "/BerangerN/text_generation_react_app/precache-manifest.c96b3d793206af4d30a787b7e2e44545.js",
+    "service-worker.js": "/BerangerN/text_generation_react_app/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/BerangerN/text_generation_react_app/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.cd138970.chunk.js.LICENSE.txt": "/BerangerN/text_generation_react_app/static/js/2.cd138970.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4075e2fe.js",
+    "static/js/2.cd138970.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.0cec8a2c.chunk.js"
+  ]
+}
