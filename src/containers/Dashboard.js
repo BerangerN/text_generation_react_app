@@ -15,7 +15,7 @@ import { Paper, CircularProgress } from '@material-ui/core'
 
 import Selection from './Selection'
 
-const dico = require(`../result.json`)
+const dico = require(`../trigram_to_successors.json`)
 
 
 function Microbe() {
@@ -136,7 +136,7 @@ class Dashboard extends Component {
                         <br />
                         <br />
                         <Paper className={fixedHeightPaperResults}>
-                        <Typography component="p" variant="h6">
+                        <Typography component="p" variant="body1">
                             {text}
                         </Typography>
                         
