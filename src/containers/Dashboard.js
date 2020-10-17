@@ -1,19 +1,22 @@
-import React, { Component } from 'react';
-import clsx from 'clsx';
+import React, { Component } from 'react'
+import clsx from 'clsx'
 
-import { withStyles } from "@material-ui/core/styles";
+import { withStyles } from "@material-ui/core/styles"
 
-import CssBaseline from '@material-ui/core/CssBaseline';
+import CssBaseline from '@material-ui/core/CssBaseline'
 
-import Box from '@material-ui/core/Box';
+import Box from '@material-ui/core/Box'
 
-import Typography from '@material-ui/core/Typography';
+import Typography from '@material-ui/core/Typography'
 
-import Container from '@material-ui/core/Container';
+import Container from '@material-ui/core/Container'
 
-import { Paper, CircularProgress } from '@material-ui/core';
+import { Paper, CircularProgress } from '@material-ui/core'
 
-import Selection from './Selection';
+import Selection from './Selection'
+
+const dico = require(`../result.json`)
+
 
 function Microbe() {
     return (
@@ -64,7 +67,7 @@ class Dashboard extends Component {
         super(props)
 
         this.state = {
-            text: 'Sélectionnez une taille de texte  ', 
+            text: 'Sélectionnez un nombre de mots  ', 
             speakerId: 0,
             loadingGeneration: false,
             errorSearch: ''
@@ -76,9 +79,29 @@ class Dashboard extends Component {
         this.setState({ [name]: value })
     }
 
-    handleSelectLength = async length => {
-        const new_text = `Taille du texte ${length}`
+    handleSelectLength = length => {
+        const new_text = `Génération d'un discours de ${length} mots...`
         this.setState({ text: new_text, loadingGeneration: true })
+
+        const deconstructed_text = ['START', 'START', 'START']
+        
+        let i = 0
+        while(i<length){
+            const last_trigram = deconstructed_text.slice(-3).join(' ')
+
+            const random_index = Math.floor((Math.random() * dico[last_trigram].length))
+            
+            deconstructed_text.push(dico[last_trigram][random_index])
+            if(dico[last_trigram][random_index] === 'END'){
+                break;
+            }
+            i += 1
+        }
+        deconstructed_text.shift()
+        deconstructed_text.shift()
+        deconstructed_text.shift()
+
+        this.setState({ text: deconstructed_text.join(' '), loadingGeneration: false })
     }
 
     handleChangeSpeaker = () => {
